@@ -1,0 +1,858 @@
+/*Página Principal*/
+
+.navbar {
+    padding: 3rem;        
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-verde {
+    color: rgb(15, 169, 15) !important;
+}
+
+.card-superpuesta img{
+    filter: brightness(5%);
+}
+
+.card-img-overlay {
+    padding-right: 8.5rem !important;
+    padding-top: 20% !important;
+    padding-left: 48% !important;
+    height: max-content;
+}
+
+.card-title1, .card-text1, .btn-outline {
+    color: white;
+}
+
+.card-text1 {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+}
+
+.card-title1 {
+    font-size: 2rem;
+}
+
+.btn-success{
+    background: rgb(14, 151, 14) !important;
+}
+
+.btn-success:hover{
+    border: none;
+    background: rgb(9, 72, 9) !important;
+}
+
+.titulo-oradores div{
+    font-size: 14px;
+    text-align: center;
+}
+
+.titulo-oradores {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.container-oradores {
+    margin-top: 20px;
+    padding: 1rem 10rem;
+}
+
+.card:hover{
+    transform: scale(0.67);
+    background-color: rgb(221, 218, 218);
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.honolulu-text{
+    font-size: 14px;
+    color: white;
+}
+
+.honolulu-text .btn {
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 5px;
+} 
+
+.convocatoria-oradores{
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.div-orador{
+    font-size: 14px;
+}
+
+.text-convocatoria{
+    font-size: 13px;
+}
+
+.formulario{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.texto-area{
+    font-size: 12px;
+}
+
+.formulario button {
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    background-color: rgb(127, 195, 59)t;
+    color: whitesmoke;
+}
+
+footer {
+    padding-top: 15px;
+}
+
+.footer-lista{
+    background-image: linear-gradient(to right, #0e1d2e,
+    #12263b, #183451, #1a4169, #0a4674); 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 6rem;
+}
+
+.footer-link{
+    color: white !important;
+    font-size: 14px !important;
+    padding: 1.5rem 2.5rem !important;
+}
+
+.swal2-popup {
+    width: 50px;
+    }
+
+/* Página Tickets */
+
+.link-verde-ticket{
+    color: #9de853 !important; 
+}
+
+.row-group{
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between !important;
+}
+
+.grupo-tickets{
+    margin-top: 8rem;
+
+}
+
+.card-tickets {
+    text-align: center;
+    padding: 1rem;
+}
+
+.card-tickets:hover{
+    transform: scale(0.9);
+    transition: 0.8s linear;
+    background-color: rgb(221, 218, 218);
+}
+
+.card-tickets-estudiante{
+    border: solid 1px rgb(41, 128, 234) !important;
+}
+
+.card-tickets-trainee{
+    border: solid 1px rgb(17, 150, 216) !important;
+}
+
+.card-tickets-junior{
+    border: solid 1px rgb(225, 192, 28) !important;
+}
+
+.formulario-tickets{
+    padding-top: 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.total-pagar{
+    background-color: #cee4ee !important;
+}
+
+.container-btn-tickets{
+    align-items: center !important;
+}
+
+.btn-ticket{
+    width: 48.3%;
+    border: none !important;
+    background-color: #7fc33b !important;
+}
+
+.footer-ticket{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-ticket .footer-link{
+    font-size: 15px !important;
+}
+
+
+/* Responsive */
+
+
+@media screen and (max-width: 910px) {
+
+    .navbar{
+        position: static !important;
+    }
+
+    .card-superpuesta img{
+        filter: brightness(100%);
+    }
+
+    .tarjeta {
+        padding-right: 8.5rem !important;
+        max-height: 50vh;
+        padding-left: 40vw !important;
+        font-size: 0.5rem;
+    }
+
+    .card-img-overlay {
+        padding: 2rem !important;
+        position: static !important;
+        background-color: black;
+    }
+
+    .card-text1 {
+        font-size: 1rem;
+        padding-top: 0.7rem;
+    }
+    
+    .card-title1 {
+        font-size: 1.5rem;
+    }
+
+    .formulario{
+        padding-top: 5px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .footer-lista{
+        padding: 0 2rem;
+    }
+
+    .footer-link{
+        padding: 1.5rem 1.5rem !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .grupo-tickets{
+        margin-top: 2rem;
+    
+    }
+
+    .formulario-tickets{
+        width: 90%;
+    }
+
+    .footer-ticket{
+        position: static;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .container-oradores {
+        margin-top: 20px;
+        padding: 1rem 2rem;
+    }
+}
+header {
+    background-color: rgb(49, 49, 49);
+}
+.titulo {
+    display: flex;
+    margin-left: 5%;
+}
+.logo {
+    width: 125px;
+    height: 75px;
+    margin-top: 5%;
+}
+.titulo p {
+    margin-top: 2%;
+    color: white;
+    width: 10%;
+    margin-top: 8%;
+}
+.header-nav ul li a {
+    color: rgb(127, 195, 59);
+    text-decoration: none;
+}
+.header-nav ul li a:hover{
+    color: white;
+}
+.header-nav ul .verde {
+    color: rgb(127, 195, 59);
+}
+main {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align:center;
+    background: rgba(0, 0, 0, 0.6);
+    background-image: url(img/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+}
+.botones {
+    margin-right: 0%;
+}
+
+.boton1 {
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0);
+    border-radius: 4px;
+    border: solid white 1px;
+}
+
+.boton2 {
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    background-color: rgb(127, 195, 59);
+    border-radius: 4px;
+    border: none;
+}
+section h2 {
+    text-align: center;
+}
+.cajas {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.steve {
+    border: 1px solid grey;
+    border-radius: 1%;
+    padding-top: 25%;
+    background-image: url(img/steve.jpg);
+    background-repeat: no-repeat;
+    background-size: 101% 57%;
+}
+
+.tecnologias {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 50%;
+}
+
+.tecnologias p {
+    font-size: 12.5px;
+    margin-top: 25%;
+    margin-right: 3%;
+    margin-bottom: 0%;
+}
+
+.JavaScript {
+    font-weight: bolder;
+    background-color: rgb(245, 233, 65);
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.React {
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(34, 155, 185);
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.Negocios {
+    font-weight: bolder;
+    color: white;
+    background-color: gray;
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.Startups {
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(197, 49, 49);
+    border-radius: 10%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.steve h3 {
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.texto-cajas {
+    margin: 10px;
+}
+
+.bill {
+    border: 1px solid grey;
+    border-radius: 1%;
+    padding-top: 25%;
+    background-image: url(img/bill.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 57%;
+}
+
+.bill h3 {
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.ada {
+    border: 1px solid grey;
+    border-radius: 1%;
+    padding-top: 25%;
+    background-image: url(img/ada.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 57%;
+}
+
+.ada h3 {
+    margin-top: 0%;
+    margin-left: 5%;
+}
+
+.octubre {
+    background-color: gray;
+    color: white;
+    padding-bottom: 20%;
+    padding-top: 1%;
+    margin-top: 1%;
+    background-image: url(img/honolulu.jpg);
+    background-size: 49% 100%;
+    background-repeat: no-repeat;
+}
+
+.octubre h3 {
+    margin-left: 50%;
+    font-size: 25px;
+}
+
+.octubre p {
+    margin-left: 50%;
+}
+
+.octubre button {
+    margin-left: 50%;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    background-color: rgba(0, 128, 0, 0);
+    border-radius: 4px;
+    border: solid white 1px;
+}
+
+.formulario h3,
+.formulario p {
+    text-align: center;
+}
+
+form {
+    margin-left: 25%;
+}
+
+.nombre {
+    padding-right: 12.5%;
+    padding-bottom: 0.5%;
+}
+
+.apellido {
+    padding-right: 12.5%;
+    margin-left: 0%;
+    padding-bottom: 0.5%;
+}
+
+.comentario {
+    display: flex;
+    margin-top: 1%;
+    width: 71%;
+    height: max-content;
+    padding-bottom: 10%;
+}
+
+.boton-formulario {
+    margin-top: 1%;
+    padding-top: 0.5%;
+    padding-left: 28.5%;
+    padding-right: 28.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(127, 195, 59);
+    border: 1px solid rgb(127, 195, 59);
+    border-radius: 2px;
+}
+
+.footer-nav {
+    padding: 1%;
+    margin-top: 1%;
+    background-color: rgb(36, 74, 131);
+    color: white;
+}
+
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+
+.footer-nav ul li {
+    list-style: none;
+    margin-left: 5%;
+}
+.navbar-brand{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.cards{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.card{
+    margin-left: 1%;
+    border: solid rgb(233, 233, 26);
+}
+.titulo-venta{
+    text-align: center;
+}
+.formulario-ticket{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.resultado p{
+    padding: 3%;
+    background-color: rgb(164, 201, 255);
+    border-radius: 5px;
+}
+.botones-ticket button{
+    background-color: rgb(127, 195, 59);
+    border: 1px solid rgb(127, 195, 59);
+    border-radius: 5px;
+    padding-left: 20.25%;
+    padding-right: 20.25%;
+}
+.botones-ticket button:hover{
+    color: white;
+}
+.resultado{
+    padding: 1%;
+    color: rgb(54, 82, 173);
+}
+@media (min-width: 700px) {
+    body {
+        margin: 0%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: rgb(49, 49, 49);
+    }
+
+    .titulo {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-top: 0%;
+    }
+
+    .titulo p {
+        margin-top: 2%;
+        color: white;
+        width: 10%;
+    }
+
+    .logo {
+        width: 125px;
+        height: 75px;
+        margin-top: 0%;
+    }
+
+    .header-nav {
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 90%;
+    }
+
+    .header-nav ul {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .header-nav ul .verde {
+        color: green;
+    }
+
+    .header-nav ul li {
+        list-style: none;
+        margin-left: 5%;
+        color: white;
+    }
+
+    main {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        text-align: end;
+        background: rgba(0, 0, 0, 0.6);
+        background-image: url(img/hawaii.jpg);
+        background-size: cover;
+        background-position: center;
+        background-blend-mode: darken;
+        color: white;
+    }
+
+    main p,
+    main h1 {
+        margin-left: 60%;
+        margin-right: 10%;
+    }
+
+    .botones {
+        margin-right: 10%;
+    }
+
+    .boton1 {
+        text-decoration: none;
+        padding: 7px;
+        color: white;
+        background-color: rgba(0, 128, 0, 0);
+        border-radius: 4px;
+        border: solid white 1px;
+    }
+
+    .boton2 {
+        text-decoration: none;
+        padding: 8px;
+        color: white;
+        background-color: rgb(127, 195, 59);
+        border-radius: 4px;
+        border: none;
+    }
+
+    section h2 {
+        text-align: center;
+    }
+
+    .cajas {
+        display: flex;
+        flex-direction: row;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .cajas div {
+        margin-left: 5%;
+    }
+
+    .steve {
+        border: 1px solid grey;
+        border-radius: 1%;
+        padding-top: 25%;
+        background-image: url(img/steve.jpg);
+        background-repeat: no-repeat;
+        background-size: 101% 57%;
+    }
+
+    .tecnologias {
+        display: flex;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+
+    .tecnologias p {
+        font-size: 12.5px;
+        margin-top: 25%;
+        margin-right: 3%;
+        margin-bottom: 0%;
+    }
+
+    .JavaScript {
+        font-weight: bolder;
+        background-color: rgb(245, 233, 65);
+        border-radius: 10%;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+
+    .React {
+        font-weight: bolder;
+        color: white;
+        background-color: rgb(34, 155, 185);
+        border-radius: 10%;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+
+    .Negocios {
+        font-weight: bolder;
+        color: white;
+        background-color: gray;
+        border-radius: 10%;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+
+    .Startups {
+        font-weight: bolder;
+        color: white;
+        background-color: rgb(197, 49, 49);
+        border-radius: 10%;
+        padding-right: 1%;
+        padding-left: 1%;
+    }
+
+    .steve h3 {
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+
+    .texto-cajas {
+        margin: 10px;
+    }
+
+    .bill {
+        border: 1px solid grey;
+        border-radius: 1%;
+        padding-top: 25%;
+        background-image: url(img/bill.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 57%;
+    }
+
+    .bill h3 {
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+
+    .ada {
+        border: 1px solid grey;
+        border-radius: 1%;
+        padding-top: 25%;
+        background-image: url(img/ada.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 57%;
+    }
+
+    .ada h3 {
+        margin-top: 0%;
+        margin-left: 5%;
+    }
+
+    .octubre {
+        background-color: gray;
+        color: white;
+        padding-bottom: 20%;
+        padding-top: 1%;
+        margin-top: 1%;
+        background-image: url(img/honolulu.jpg);
+        background-size: 49% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .octubre h3 {
+        margin-left: 50%;
+        font-size: 25px;
+    }
+
+    .octubre p {
+        margin-left: 50%;
+    }
+
+    .octubre button {
+        margin-left: 50%;
+        text-decoration: none;
+        padding: 7px;
+        color: white;
+        background-color: rgba(0, 128, 0, 0);
+        border-radius: 4px;
+        border: solid white 1px;
+    }
+
+    .formulario h3,
+    .formulario p {
+        text-align: center;
+    }
+
+    form {
+        margin-left: 25%;
+    }
+
+    .nombre {
+        padding-right: 12.5%;
+        padding-bottom: 0.5%;
+    }
+
+    .apellido {
+        padding-right: 12.5%;
+        margin-left: 7%;
+        padding-bottom: 0.5%;
+    }
+
+    .comentario {
+        display: flex;
+        margin-top: 1%;
+        width: 69.5%;
+        height: max-content;
+        padding-bottom: 10%;
+    }
+
+    .boton-formulario {
+        margin-top: 1%;
+        padding-top: 0.5%;
+        padding-left: 32.5%;
+        padding-right: 32.5%;
+        padding-bottom: 0.5%;
+        background-color: rgb(127, 195, 59);
+        border: 1px solid rgb(127, 195, 59);
+        border-radius: 2px;
+    }
+
+    .footer-nav {
+        padding: 1%;
+        margin-top: 1%;
+        background-color: rgb(36, 74, 131);
+        color: white;
+    }
+
+    .footer-nav ul {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0%;
+    }
+
+    .footer-nav ul li {
+        list-style: none;
+        margin-left: 5%;
+    }
+}
